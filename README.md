@@ -40,7 +40,7 @@ Next, connect to your newly created VM using Remote Desktop using the public IPv
 <a href="https://imgur.com/Mq939fY"><img src="https://i.imgur.com/Mq939fY.jpg" title="source: imgur.com" /></a>
 </p>
 <p>
-Now that you have created your VM you will have to enable IIS. Simply access the control panel then select uninstall a program. Off to the left select "Turn windows features on or off". A list will appear then you will enable Internet Information Services.
+Now that you have created your VM you will have to enable IIS. Access the control panel then select uninstall a program. Select "Turn windows features on or off" which is located to the left. A list will appear and from there you will enable Internet Information Services.
 </p>
 <br />
 
@@ -48,7 +48,7 @@ Now that you have created your VM you will have to enable IIS. Simply access the
 <a href="https://imgur.com/9HTz9T3"><img src="https://i.imgur.com/9HTz9T3.jpg" title="source: imgur.com" /></a>
 </p>
 <p>
-Excellent. Now that you have enabled IIS we need to install Web Platform Installer. I have provided a link here: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6 That link will provide you with all of the material you need to download to get osTicket up and running. Simply click the link and install the Web Platform Installer
+Now that you have enabled IIS you will need to install Web Platform Installer. A link below has been provided: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6 This link will provide you with material that is required to download osTicket and continue the setup process. Once inside the provided link, click and install Web Platform Installer
 </p>
 <br />
 
