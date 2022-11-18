@@ -88,3 +88,11 @@ Go back into c:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php rename the
 Afterwards continue setting up osTicket in the browser (click continue) then you will name the Helpdesk to your liking. Select a default email that will receive emails from customers who submit tickets.
 <br />
 
+<p>
+<a href="https://imgur.com/MAh3FMh"><img src="https://i.imgur.com/MAh3FMh.jpg" title="source: imgur.com" /></a>
+</p>
+<p>
+<a href="https://imgur.com/IzWLIx8"><img src="https://i.imgur.com/IzWLIx8.jpg" title="source: imgur.com" /></a>
+</p>
+Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!” Congratulations, hopefully it is installed with no errors! Clean up Delete: C:\inetpub\wwwroot\osTicket\setup Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php Login to the osTicket Admin Panel (http://localhost/osTicket/scp/login.php)
+<br />
