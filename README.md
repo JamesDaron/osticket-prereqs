@@ -64,3 +64,27 @@ Once you have installed Web Installer Platform open it. From inside the applicat
 Next download osTicket. Then extract and copy the "upload" folder into c:\inetpub\wwwroot. Afterwards rename the folder to osTicket
 <br />
 
+<p>
+<a href="https://imgur.com/1CZSW4x"><img src="https://i.imgur.com/1CZSW4x.jpg" title="source: imgur.com" /></a>
+</p>
+Open IIS Manager and restart the server. Once inside IIS manager go to Sites->Default->osTicket on the right, click "Browse*.80" from there your default browser should open osTicket webserver.
+<br />
+
+<p>
+<a href="https://imgur.com/AgU0mWb"><img src="https://i.imgur.com/AgU0mWb.jpg" title="source: imgur.com" /></a>
+</p>
+Go back into IIS manager and enable some extensions. To do this you have to go to Sites->Default->osTicket Then double click on PHP manager. Click on "Disable or enable an extension" Enable "php_intl.dll" & "php_opcache.dll" then refresh the osTicket webserver and obsereve the changes "Intl Extension" should now be enabled.
+<br />
+
+<p>
+<a href="https://imgur.com/reRRVTB"><img src="https://i.imgur.com/reRRVTB.png" title="source: imgur.com" /></a>
+</p>
+Go back into c:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php rename the file to c:\inetpub\wwwroot\osTicket\include\ost-config.php Assign permissions to ost-config.php Disable inheritance->Removeall New Permissions->Everyone->all
+<br />
+
+<p>
+<a href="https://imgur.com/Jy3QuLM"><img src="https://i.imgur.com/Jy3QuLM.png" title="source: imgur.com" /></a>
+</p>
+Afterwards continue setting up osTicket in the browser (click continue) then you will name the Helpdesk to your liking. Select a default email that will receive emails from customers who submit tickets.
+<br />
+
