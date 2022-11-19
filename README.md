@@ -58,7 +58,7 @@ Now that you have enabled IIS you will need to install Web Platform Installer. A
 <p>
 <a href="https://imgur.com/8jky0rf"><img src="https://i.imgur.com/8jky0rf.jpg" title="source: imgur.com" /></a>
 </p>
-Once you have installed Web Installer Platform open it. Go to the search bar and type "MySQL". From there, install MySQL 5.5. Afterwards install x86 version of PHP up until 7.3. There are some failed files such as C++ redistributable package as well as PHP 7.3.8 and PHP Manager, and IIS. The files for those listed and can be found inside the install link.
+Once you have installed Web Installer Platform open it. Go to the search bar and type "MySQL". From there, install MySQL 5.5. Afterwards install x86 version of PHP up until 7.3. There are some failed files such as C++ redistributable package as well as PHP 7.3.8 and PHP Manager, and IIS. The files for those listed can be found inside the install link.
 <br />
 
 <p>
